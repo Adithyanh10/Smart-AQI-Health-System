@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "compare": "Compare",
+    "dataset": "Dataset",
+    "map": "Map",
+    "profile": "Profile",
+    "travel": "Travel Advisor",
+    "voice": "Voice Command",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "buttons": {
+    "predict": "Predict",
+    "uploadCSV": "Upload CSV",
+    "downloadReport": "Download Report",
+    "clear": "Clear",
+    "submit": "Submit",
+    "retry": "Retry",
+    "dismiss": "Dismiss",
+    "learnMore": "Learn More",
+    "shareAdvisory": "Share Advisory",
+    "iUnderstand": "I Understand the Risk",
+    "activate": "Activate",
+    "retrain": "Retrain Model",
+    "tune": "Tune Hyperparameters",
+    "flushCache": "Flush Cache",
+    "exportPDF": "Export PDF",
+    "addFavorite": "Add Favorite",
+    "saveProfile": "Save Profile"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI Category",
+    "modelType": "Model Type",
+    "name": "Name",
+    "city": "City",
+    "healthConditions": "Health Conditions",
+    "notificationThreshold": "Notification Threshold (AQI)",
+    "apiKey": "API Key"
+  },
+  "aqi": {
+    "title": "Air Quality Index",
+    "value": "AQI Value",
+    "category": "Category",
+    "categories": {
+      "good": "Good",
+      "moderate": "Moderate",
+      "unhealthySensitive": "Unhealthy for Sensitive Groups",
+      "unhealthy": "Unhealthy",
+      "veryUnhealthy": "Very Unhealthy",
+      "hazardous": "Hazardous"
+    },
+    "range": {
+      "good": "0–50",
+      "moderate": "51–100",
+      "unhealthySensitive": "101–150",
+      "unhealthy": "151–200",
+      "veryUnhealthy": "201–300",
+      "hazardous": "301–500"
+    }
+  },
+  "risk": {
+    "levels": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High",
+      "veryHigh": "Very High",
+      "severe": "Severe"
+    }
+  },
+  "organs": {
+    "lungs": "Lungs",
+    "heart": "Heart",
+    "brain": "Brain",
+    "skin": "Skin",
+    "eyes": "Eyes",
+    "immune": "Immune System"
+  },
+  "urgency": {
+    "monitor": "Monitor",
+    "caution": "Caution",
+    "avoidOutdoors": "Avoid Outdoors",
+    "stayIndoors": "Stay Indoors",
+    "emergency": "Emergency"
+  },
+  "advisory": {
+    "moderate": "Air quality is acceptable. Unusually sensitive individuals may experience minor symptoms.",
+    "unhealthySensitive": "Members of sensitive groups may experience health effects. The general public is less likely to be affected.",
+    "unhealthy": "Everyone may begin to experience health effects. Members of sensitive groups may experience more serious effects.",
+    "veryUnhealthy": "Health alert: everyone may experience more serious health effects.",
+    "hazardous": "Health warning of emergency conditions. The entire population is more likely to be affected."
+  },
+  "errors": {
+    "required": "This field is required.",
+    "outOfRange": "Value must be between 0 and 5000.",
+    "invalidCSV": "Invalid CSV format. Please check your file.",
+    "missingColumns": "Missing required columns: {{columns}}",
+    "fileTooLarge": "File exceeds the 50MB limit.",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "unauthorized": "Unauthorized. Please provide a valid API key.",
+    "rateLimited": "Too many requests. Please wait {{seconds}} seconds.",
+    "notFound": "Resource not found.",
+    "invalidCategory": "Invalid AQI category."
+  },
+  "loading": {
+    "predicting": "Predicting...",
+    "uploading": "Uploading...",
+    "training": "Training model...",
+    "loading": "Loading...",
+    "fetchingData": "Fetching data...",
+    "generatingPDF": "Generating PDF..."
+  },
+  "dashboard": {
+    "title": "AQI Health Dashboard",
+    "subtitle": "Real-time air quality health impact analysis",
+    "liveIndicator": "Live",
+    "lastUpdated": "Last updated",
+    "confidenceInterval": "Confidence Interval",
+    "featureImportance": "Feature Importance",
+    "organImpact": "Organ Health Impact",
+    "predictionHistory": "Prediction History"
+  },
+  "compare": {
+    "title": "Scenario Comparison",
+    "subtitle": "Compare health impacts across AQI categories",
+    "from": "From",
+    "to": "To",
+    "worsened": "Worsened",
+    "improved": "Improved",
+    "unchanged": "Unchanged"
+  },
+  "dataset": {
+    "title": "Dataset Explorer",
+    "subtitle": "Browse and analyze air quality data",
+    "totalRows": "Total Rows",
+    "outlierRows": "Outlier Rows",
+    "statistics": "Statistics",
+    "correlation": "Correlation Matrix",
+    "filter": "Filter",
+    "page": "Page",
+    "of": "of"
+  },
+  "profile": {
+    "title": "User Profile",
+    "subtitle": "Manage your health profile and preferences",
+    "favorites": "Favorite Locations",
+    "history": "Prediction History",
+    "noHistory": "No predictions yet.",
+    "noFavorites": "No favorite locations saved."
+  },
+  "model": {
+    "title": "Model Management",
+    "active": "Active",
+    "metrics": "Metrics",
+    "mae": "MAE",
+    "rmse": "RMSE",
+    "r2": "R²",
+    "accuracy": "Accuracy",
+    "cvMean": "CV Mean",
+    "cvStd": "CV Std",
+    "trainedAt": "Trained At",
+    "datasetRows": "Dataset Rows",
+    "retrainStatus": "Retrain Status",
+    "jobId": "Job ID"
+  },
+  "voice": {
+    "title": "Voice Command",
+    "subtitle": "Ask about pollution details using your voice",
+    "placeholder": "Press mic and speak...",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "askAnything": "Ask anything about air quality",
+    "exampleQueries": "Example queries",
+    "noSupport": "Your browser does not support voice recognition",
+    "currentAQI": "What is the current AQI?",
+    "pm25Level": "What is the PM2.5 level?",
+    "healthAdvice": "Is it safe to go outside?",
+    "worstPollutant": "Which pollutant is highest?",
+    "organRisk": "Which organs are at risk?",
+    "categoryMeaning": "What does the AQI category mean?"
+  }
+}

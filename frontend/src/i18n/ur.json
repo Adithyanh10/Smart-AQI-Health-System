@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "ڈیش بورڈ",
+    "compare": "موازنہ",
+    "dataset": "ڈیٹاسیٹ",
+    "map": "نقشہ",
+    "profile": "پروفائل",
+    "travel": "سفری مشیر",
+    "voice": "وائس کمانڈ",
+    "login": "لاگ ان",
+    "logout": "لاگ آؤٹ"
+  },
+  "buttons": {
+    "predict": "پیش گوئی کریں",
+    "uploadCSV": "CSV اپلوڈ",
+    "downloadReport": "رپورٹ ڈاؤنلوڈ",
+    "clear": "صاف کریں",
+    "submit": "جمع کریں",
+    "retry": "دوبارہ کوشش",
+    "dismiss": "بند کریں",
+    "learnMore": "مزید جانیں",
+    "shareAdvisory": "مشورہ شیئر کریں",
+    "iUnderstand": "میں خطرہ سمجھتا ہوں",
+    "activate": "فعال کریں",
+    "retrain": "ماڈل دوبارہ تربیت",
+    "tune": "ہائپرپیرامیٹر ٹیون",
+    "flushCache": "کیش صاف",
+    "exportPDF": "PDF برآمد",
+    "addFavorite": "پسندیدہ شامل کریں",
+    "saveProfile": "پروفائل محفوظ کریں"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI زمرہ",
+    "modelType": "ماڈل کی قسم",
+    "name": "نام",
+    "city": "شہر",
+    "healthConditions": "صحت کی حالت",
+    "notificationThreshold": "اطلاع کی حد (AQI)",
+    "apiKey": "API کلید"
+  },
+  "aqi": {
+    "title": "فضائی معیار کا اشاریہ",
+    "value": "AQI قدر",
+    "category": "زمرہ",
+    "categories": {
+      "good": "اچھا",
+      "moderate": "معتدل",
+      "unhealthySensitive": "حساس گروہوں کے لیے غیر صحت بخش",
+      "unhealthy": "غیر صحت بخش",
+      "veryUnhealthy": "بہت غیر صحت بخش",
+      "hazardous": "خطرناک"
+    }
+  },
+  "dashboard": {
+    "title": "AQI صحت ڈیش بورڈ",
+    "subtitle": "ریئل ٹائم فضائی معیار صحت اثر تجزیہ"
+  },
+  "voice": {
+    "title": "وائس کمانڈ",
+    "subtitle": "آلودگی کی تفصیلات آواز سے پوچھیں",
+    "placeholder": "مائیک دبائیں اور بولیں...",
+    "listening": "سن رہا ہے...",
+    "processing": "پروسیس ہو رہا ہے...",
+    "askAnything": "فضائی معیار کے بارے میں کچھ بھی پوچھیں",
+    "exampleQueries": "مثال کے سوالات",
+    "noSupport": "آپ کا براؤزر وائس ریکگنیشن کو سپورٹ نہیں کرتا"
+  }
+}

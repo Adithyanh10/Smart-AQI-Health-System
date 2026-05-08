@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "ଡ୍ୟାଶବୋର୍ଡ",
+    "compare": "ତୁଳନା",
+    "dataset": "ଡାଟାସେଟ",
+    "map": "ମ୍ୟାପ",
+    "profile": "ପ୍ରୋଫାଇଲ",
+    "travel": "ଯାତ୍ରା ପରାମର୍ଶଦାତା",
+    "voice": "ଭଏସ କମାଣ୍ଡ",
+    "login": "ଲଗଇନ",
+    "logout": "ଲଗଆଉଟ"
+  },
+  "buttons": {
+    "predict": "ଅନୁମାନ କରନ୍ତୁ",
+    "uploadCSV": "CSV ଅପଲୋଡ",
+    "downloadReport": "ରିପୋର୍ଟ ଡାଉନଲୋଡ",
+    "clear": "ସଫା କରନ୍ତୁ",
+    "submit": "ଦାଖଲ କରନ୍ତୁ",
+    "retry": "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ",
+    "dismiss": "ବନ୍ଦ କରନ୍ତୁ",
+    "learnMore": "ଅଧିକ ଜାଣନ୍ତୁ",
+    "shareAdvisory": "ପରାମର୍ଶ ଅଂଶୀଦାର",
+    "iUnderstand": "ମୁଁ ବିପଦ ବୁଝୁଛି",
+    "activate": "ସକ୍ରିୟ କରନ୍ତୁ",
+    "retrain": "ମଡେଲ ପୁନଃ ତାଲିମ",
+    "tune": "ହାଇପରପ୍ୟାରାମିଟର ଟ୍ୟୁନ",
+    "flushCache": "କ୍ୟାଶ ସଫା",
+    "exportPDF": "PDF ରପ୍ତାନି",
+    "addFavorite": "ପ୍ରିୟ ଯୋଡ଼ନ୍ତୁ",
+    "saveProfile": "ପ୍ରୋଫାଇଲ ସଞ୍ଚୟ"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI ବର୍ଗ",
+    "modelType": "ମଡେଲ ପ୍ରକାର",
+    "name": "ନାମ",
+    "city": "ସହର",
+    "healthConditions": "ସ୍ୱାସ୍ଥ୍ୟ ଅବସ୍ଥା",
+    "notificationThreshold": "ବିଜ୍ଞପ୍ତି ସୀମା (AQI)",
+    "apiKey": "API ଚାବି"
+  },
+  "aqi": {
+    "title": "ବାୟୁ ଗୁଣ ସୂଚକ",
+    "value": "AQI ମୂଲ୍ୟ",
+    "category": "ବର୍ଗ",
+    "categories": {
+      "good": "ଭଲ",
+      "moderate": "ମଧ୍ୟମ",
+      "unhealthySensitive": "ସଂବେଦନଶୀଳ ଗୋଷ୍ଠୀ ପାଇଁ ଅସ୍ୱାସ୍ଥ୍ୟକର",
+      "unhealthy": "ଅସ୍ୱାସ୍ଥ୍ୟକର",
+      "veryUnhealthy": "ଅତ୍ୟନ୍ତ ଅସ୍ୱାସ୍ଥ୍ୟକର",
+      "hazardous": "ବିପଜ୍ଜନକ"
+    }
+  },
+  "dashboard": {
+    "title": "AQI ସ୍ୱାସ୍ଥ୍ୟ ଡ୍ୟାଶବୋର୍ଡ",
+    "subtitle": "ରିଅଲ-ଟାଇମ ବାୟୁ ଗୁଣ ସ୍ୱାସ୍ଥ୍ୟ ପ୍ରଭାବ ବିଶ୍ଳେଷଣ"
+  },
+  "voice": {
+    "title": "ଭଏସ କମାଣ୍ଡ",
+    "subtitle": "ପ୍ରଦୂଷଣ ବିବରଣୀ ଭଏସ ଦ୍ୱାରା ପଚାରନ୍ତୁ",
+    "placeholder": "ମାଇକ ଦବାନ୍ତୁ ଏବଂ କୁହନ୍ତୁ...",
+    "listening": "ଶୁଣୁଛି...",
+    "processing": "ପ୍ରକ୍ରିୟା କରୁଛି...",
+    "askAnything": "ବାୟୁ ଗୁଣ ବିଷୟରେ ଯାହା ଇଚ୍ଛା ପଚାରନ୍ତୁ",
+    "exampleQueries": "ଉଦାହରଣ ପ୍ରଶ୍ନ",
+    "noSupport": "ଆପଣଙ୍କ ବ୍ରାଉଜର ଭଏସ ଚିହ୍ନଟ ସମର୍ଥନ କରେ ନାହିଁ"
+  }
+}

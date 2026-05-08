@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.hypothesis/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/node-*.msi
+
+# Models & Logs (large binary files — regenerated on boot)
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/active.json
+backend/logs/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "ড্যাশবোর্ড",
+    "compare": "তুলনা",
+    "dataset": "ডেটাসেট",
+    "map": "মানচিত্র",
+    "profile": "প্রোফাইল",
+    "travel": "ভ্রমণ উপদেষ্টা",
+    "voice": "ভয়েস কমান্ড",
+    "login": "লগইন",
+    "logout": "লগআউট"
+  },
+  "buttons": {
+    "predict": "পূর্বাভাস দিন",
+    "uploadCSV": "CSV আপলোড",
+    "downloadReport": "রিপোর্ট ডাউনলোড",
+    "clear": "পরিষ্কার করুন",
+    "submit": "জমা দিন",
+    "retry": "আবার চেষ্টা করুন",
+    "dismiss": "বন্ধ করুন",
+    "learnMore": "আরও জানুন",
+    "shareAdvisory": "পরামর্শ শেয়ার করুন",
+    "iUnderstand": "আমি ঝুঁকি বুঝি",
+    "activate": "সক্রিয় করুন",
+    "retrain": "মডেল পুনরায় প্রশিক্ষণ",
+    "tune": "হাইপারপ্যারামিটার টিউন",
+    "flushCache": "ক্যাশ পরিষ্কার",
+    "exportPDF": "PDF রপ্তানি",
+    "addFavorite": "প্রিয় যোগ করুন",
+    "saveProfile": "প্রোফাইল সংরক্ষণ"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI বিভাগ",
+    "modelType": "মডেল ধরন",
+    "name": "নাম",
+    "city": "শহর",
+    "healthConditions": "স্বাস্থ্য অবস্থা",
+    "notificationThreshold": "বিজ্ঞপ্তি সীমা (AQI)",
+    "apiKey": "API কী"
+  },
+  "aqi": {
+    "title": "বায়ু মান সূচক",
+    "value": "AQI মান",
+    "category": "বিভাগ",
+    "categories": {
+      "good": "ভালো",
+      "moderate": "মাঝারি",
+      "unhealthySensitive": "সংবেদনশীল গোষ্ঠীর জন্য অস্বাস্থ্যকর",
+      "unhealthy": "অস্বাস্থ্যকর",
+      "veryUnhealthy": "খুব অস্বাস্থ্যকর",
+      "hazardous": "বিপজ্জনক"
+    }
+  },
+  "dashboard": {
+    "title": "AQI স্বাস্থ্য ড্যাশবোর্ড",
+    "subtitle": "রিয়েল-টাইম বায়ু মান স্বাস্থ্য প্রভাব বিশ্লেষণ"
+  },
+  "voice": {
+    "title": "ভয়েস কমান্ড",
+    "subtitle": "দূষণের বিবরণ ভয়েসে জিজ্ঞাসা করুন",
+    "placeholder": "মাইক চাপুন এবং কথা বলুন...",
+    "listening": "শুনছে...",
+    "processing": "প্রক্রিয়া করছে...",
+    "askAnything": "বায়ু মান সম্পর্কে যেকোনো কিছু জিজ্ঞাসা করুন",
+    "exampleQueries": "উদাহরণ প্রশ্ন",
+    "noSupport": "আপনার ব্রাউজার ভয়েস রিকগনিশন সমর্থন করে না"
+  }
+}

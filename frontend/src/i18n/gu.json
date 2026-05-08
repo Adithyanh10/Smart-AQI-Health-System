@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "ડેશબોર્ડ",
+    "compare": "સરખામણી",
+    "dataset": "ડેટાસેટ",
+    "map": "નકશો",
+    "profile": "પ્રોફાઇલ",
+    "travel": "પ્રવાસ સલાહકાર",
+    "voice": "વૉઇસ કમાન્ડ",
+    "login": "લૉગિન",
+    "logout": "લૉગઆઉટ"
+  },
+  "buttons": {
+    "predict": "આગાહી કરો",
+    "uploadCSV": "CSV અપલોડ",
+    "downloadReport": "રિપોર્ટ ડાઉનલોડ",
+    "clear": "સાફ કરો",
+    "submit": "સબમિટ",
+    "retry": "ફરી પ્રયાસ",
+    "dismiss": "બંધ કરો",
+    "learnMore": "વધુ જાણો",
+    "shareAdvisory": "સલાહ શેર કરો",
+    "iUnderstand": "હું જોખમ સમજું છું",
+    "activate": "સક્રિય કરો",
+    "retrain": "મૉડેલ ફરી ટ્રેઇન",
+    "tune": "હાઇપરપૅરામીટર ટ્યૂન",
+    "flushCache": "કૅશ સાફ",
+    "exportPDF": "PDF નિકાસ",
+    "addFavorite": "પ્રિય ઉમેરો",
+    "saveProfile": "પ્રોફાઇલ સાચવો"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI શ્રેણી",
+    "modelType": "મૉડેલ પ્રકાર",
+    "name": "નામ",
+    "city": "શહેર",
+    "healthConditions": "સ્વાસ્થ્ય સ્થિતિ",
+    "notificationThreshold": "સૂચના મર્યાદા (AQI)",
+    "apiKey": "API કી"
+  },
+  "aqi": {
+    "title": "હવા ગુણવત્તા સૂચકાંક",
+    "value": "AQI મૂલ્ય",
+    "category": "શ્રેણી",
+    "categories": {
+      "good": "સારું",
+      "moderate": "મધ્યમ",
+      "unhealthySensitive": "સંવેદનશીલ જૂથો માટે અસ્વાસ્થ્યકર",
+      "unhealthy": "અસ્વાસ્થ્યકર",
+      "veryUnhealthy": "ખૂબ અસ્વાસ્થ્યકર",
+      "hazardous": "જોખમી"
+    }
+  },
+  "dashboard": {
+    "title": "AQI સ્વાસ્થ્ય ડેશબોર્ડ",
+    "subtitle": "રીઅલ-ટાઇમ હવા ગુણવત્તા સ્વાસ્થ્ય અસર વિશ્લેષણ"
+  },
+  "voice": {
+    "title": "વૉઇસ કમાન્ડ",
+    "subtitle": "પ્રદૂષણ વિગતો વૉઇસ દ્વારા પૂછો",
+    "placeholder": "માઇક દબાવો અને બોલો...",
+    "listening": "સાંભળી રહ્યું છે...",
+    "processing": "પ્રક્રિયા કરી રહ્યું છે...",
+    "askAnything": "હવા ગુણવત્તા વિશે કંઈ પણ પૂછો",
+    "exampleQueries": "ઉદાહરણ પ્રશ્નો",
+    "noSupport": "તમારું બ્રાઉઝર વૉઇસ ઓળખ સમર્થન કરતું નથી"
+  }
+}

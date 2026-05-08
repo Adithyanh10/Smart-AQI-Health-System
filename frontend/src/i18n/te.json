@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "compare": "పోల్చండి",
+    "dataset": "డేటాసెట్",
+    "map": "మ్యాప్",
+    "profile": "ప్రొఫైల్",
+    "travel": "ప్రయాణ సలహాదారు",
+    "voice": "వాయిస్ కమాండ్",
+    "login": "లాగిన్",
+    "logout": "లాగ్అవుట్"
+  },
+  "buttons": {
+    "predict": "అంచనా వేయండి",
+    "uploadCSV": "CSV అప్‌లోడ్",
+    "downloadReport": "నివేదిక డౌన్‌లోడ్",
+    "clear": "క్లియర్",
+    "submit": "సమర్పించండి",
+    "retry": "మళ్ళీ ప్రయత్నించండి",
+    "dismiss": "మూసివేయండి",
+    "learnMore": "మరింత తెలుసుకోండి",
+    "shareAdvisory": "సలహా పంచుకోండి",
+    "iUnderstand": "నేను ప్రమాదాన్ని అర్థం చేసుకున్నాను",
+    "activate": "సక్రియం చేయండి",
+    "retrain": "మోడల్ రీట్రెయిన్",
+    "tune": "హైపర్‌పారామీటర్ ట్యూన్",
+    "flushCache": "కాష్ క్లియర్",
+    "exportPDF": "PDF ఎగుమతి",
+    "addFavorite": "ఇష్టమైనది జోడించండి",
+    "saveProfile": "ప్రొఫైల్ సేవ్"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI వర్గం",
+    "modelType": "మోడల్ రకం",
+    "name": "పేరు",
+    "city": "నగరం",
+    "healthConditions": "ఆరోగ్య పరిస్థితులు",
+    "notificationThreshold": "నోటిఫికేషన్ థ్రెషోల్డ్ (AQI)",
+    "apiKey": "API కీ"
+  },
+  "aqi": {
+    "title": "వాయు నాణ్యత సూచిక",
+    "value": "AQI విలువ",
+    "category": "వర్గం",
+    "categories": {
+      "good": "మంచిది",
+      "moderate": "మధ్యస్థం",
+      "unhealthySensitive": "సున్నితమైన సమూహాలకు అనారోగ్యకరం",
+      "unhealthy": "అనారోగ్యకరం",
+      "veryUnhealthy": "చాలా అనారోగ్యకరం",
+      "hazardous": "ప్రమాదకరం"
+    }
+  },
+  "dashboard": {
+    "title": "AQI ఆరోగ్య డాష్‌బోర్డ్",
+    "subtitle": "రియల్-టైమ్ వాయు నాణ్యత ఆరోగ్య ప్రభావ విశ్లేషణ"
+  },
+  "voice": {
+    "title": "వాయిస్ కమాండ్",
+    "subtitle": "కాలుష్య వివరాలను వాయిస్‌లో అడగండి",
+    "placeholder": "మైక్ నొక్కి మాట్లాడండి...",
+    "listening": "వింటోంది...",
+    "processing": "ప్రాసెస్ చేస్తోంది...",
+    "askAnything": "వాయు నాణ్యత గురించి ఏదైనా అడగండి",
+    "exampleQueries": "ఉదాహరణ ప్రశ్నలు",
+    "noSupport": "మీ బ్రౌజర్ వాయిస్ రికగ్నిషన్‌కు మద్దతు ఇవ్వదు"
+  }
+}

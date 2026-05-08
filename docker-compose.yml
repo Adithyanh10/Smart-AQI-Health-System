@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: aqi-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:4173
+      - DATASET_PATH=/app/dataset.csv
+      - MODELS_DIR=/app/models
+      - LOGS_DIR=/app/logs
+      - CACHE_TTL_SECONDS=60
+      - RATE_LIMIT_MAX=100
+      - RATE_LIMIT_WINDOW=60
+      # Optional: set TUNNEL_URL for cross-network QR access
+      # - TUNNEL_URL=https://xxxx.ngrok-free.app
+    volumes:
+      - ../dataset.csv:/app/dataset.csv:ro
+      - aqi_models:/app/models
+      - aqi_logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/aqi/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aqi-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  aqi_models:
+  aqi_logs:

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-label="Heart organ icon">
+  <title>Heart</title>
+  <!-- Heart shape using two circles + triangle -->
+  <path d="M32 54 C32 54 8 38 8 22 C8 14 14 8 22 8 C26 8 30 10 32 14 C34 10 38 8 42 8 C50 8 56 14 56 22 C56 38 32 54 32 54 Z" fill="#ef4444"/>
+  <!-- Highlight -->
+  <path d="M20 16 C16 18 14 22 14 26" stroke="#fca5a5" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

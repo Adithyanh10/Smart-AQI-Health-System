@@ -1,0 +1,16 @@
+{
+  "model_id": "2239ba6e-4adf-481d-8ad4-55771a466e6a",
+  "model_type": "random_forest",
+  "trained_at": "2026-04-07T15:53:28.137114Z",
+  "dataset_rows": 1000,
+  "metrics": {
+    "mae": 20.77335,
+    "rmse": 29.439681188830832,
+    "r2": 0.9266457409846887,
+    "accuracy": 1.0,
+    "cv_mean_accuracy": 0.9418954977407547,
+    "cv_std_accuracy": 0.004302496564596613
+  },
+  "is_active": false,
+  "artifact_path": "..\\models\\2239ba6e-4adf-481d-8ad4-55771a466e6a\\artifact.pkl"
+}

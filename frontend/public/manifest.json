@@ -1,0 +1,43 @@
+﻿{
+  "name": "Smart AQI",
+  "short_name": "Smart AQI",
+  "description": "Smart Air Quality Intelligence — real-time AQI prediction and organ health impact analysis",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030d07",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "utilities", "weather"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/",
+      "description": "Open AQI Dashboard"
+    },
+    {
+      "name": "Voice Command",
+      "url": "/voice",
+      "description": "Ask about air quality"
+    },
+    {
+      "name": "India Map",
+      "url": "/map",
+      "description": "View India AQI Map"
+    }
+  ]
+}

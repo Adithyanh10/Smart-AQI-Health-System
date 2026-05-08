@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-label="Immune system organ icon">
+  <title>Immune System</title>
+  <!-- Shield shape representing immune defense -->
+  <path d="M32 6 L54 16 L54 34 C54 46 44 56 32 60 C20 56 10 46 10 34 L10 16 Z" fill="#22c55e" opacity="0.9"/>
+  <!-- Shield inner border -->
+  <path d="M32 12 L48 20 L48 34 C48 43 41 51 32 54 C23 51 16 43 16 34 L16 20 Z" fill="none" stroke="#86efac" stroke-width="1.5"/>
+  <!-- Cross / plus symbol inside shield -->
+  <rect x="28" y="24" width="8" height="20" rx="2" fill="white" opacity="0.9"/>
+  <rect x="22" y="30" width="20" height="8" rx="2" fill="white" opacity="0.9"/>
+</svg>

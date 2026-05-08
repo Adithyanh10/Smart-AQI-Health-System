@@ -1,0 +1,256 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS — Government AQI Health Monitoring Dashboard
+   Professional · Trustworthy · Enterprise-Grade
+   
+   Colors:
+   - Deep Navy Blue: #0B1F3A (primary)
+   - Emerald Green:  #0E9F6E (accent)
+   
+   Fonts:
+   - Heading: Montserrat Bold
+   - Side Heading: Poppins SemiBold
+   - Body: Inter Regular
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LIGHT THEME — Clean, Professional, Government-Grade
+   Soft white/gray backgrounds for maximum clarity
+   ═══════════════════════════════════════════════════════════════════════════ */
+:root {
+  /* ── Primary Brand Colors ─────────────────────────────────────────────── */
+  --color-navy-50:    #E8ECF1;
+  --color-navy-100:   #C5CED9;
+  --color-navy-200:   #9FADBf;
+  --color-navy-300:   #6B7D94;
+  --color-navy-400:   #3D516D;
+  --color-navy-500:   #0B1F3A;
+  --color-navy-600:   #091A32;
+  --color-navy-700:   #071426;
+  --color-navy-800:   #040F1D;
+  --color-navy-900:   #020912;
+
+  --color-emerald-50:   #ECFDF5;
+  --color-emerald-100:  #D1FAE5;
+  --color-emerald-200:  #A7F3D0;
+  --color-emerald-300:  #6EE7B7;
+  --color-emerald-400:  #34D399;
+  --color-emerald-500:  #0E9F6E;
+  --color-emerald-600:  #059669;
+  --color-emerald-700:  #047857;
+  --color-emerald-800:  #065F46;
+  --color-emerald-900:  #064E3B;
+
+  /* ── Semantic Colors ──────────────────────────────────────────────────── */
+  --color-success:     #0E9F6E;
+  --color-warning:     #D97706;
+  --color-error:       #DC2626;
+  --color-info:        #2563EB;
+
+  /* ── AQI Scale Colors (Official) ──────────────────────────────────────── */
+  --aqi-good:           #0E9F6E;
+  --aqi-moderate:       #FBBF24;
+  --aqi-unhealthy-sensitive: #F97316;
+  --aqi-unhealthy:      #DC2626;
+  --aqi-very-unhealthy: #7C3AED;
+  --aqi-hazardous:      #991B1B;
+
+  /* ── Light Theme Backgrounds ──────────────────────────────────────────── */
+  --bg-primary:      #F8FAFC;
+  --bg-secondary:    #FFFFFF;
+  --bg-tertiary:     #F1F5F9;
+  --bg-elevated:     #FFFFFF;
+  --bg-card:         #FFFFFF;
+  --bg-card-hover:   #F8FAFC;
+  --bg-sidebar:      #0B1F3A;
+  --bg-header:       #0B1F3A;
+  --bg-input:        #FFFFFF;
+  --bg-input-focus:  #F8FAFC;
+  --bg-overlay:      rgba(11, 31, 58, 0.75);
+
+  /* ── Borders ───────────────────────────────────────────────────────────── */
+  --border-subtle:   #E2E8F0;
+  --border-default:  #CBD5E1;
+  --border-strong:   #94A3B8;
+  --border-focus:    #0E9F6E;
+  --border-navy:     rgba(11, 31, 58, 0.15);
+
+  /* ── Text Colors ───────────────────────────────────────────────────────── */
+  --text-primary:    #0B1F3A;
+  --text-secondary:  #334155;
+  --text-tertiary:   #64748B;
+  --text-muted:      #94A3B8;
+  --text-inverse:    #FFFFFF;
+  --text-on-navy:    #FFFFFF;
+  --text-on-emerald: #FFFFFF;
+
+  /* ── Shadows ──────────────────────────────────────────────────────────── */
+  --shadow-xs:   0 1px 2px rgba(11, 31, 58, 0.04);
+  --shadow-sm:   0 1px 3px rgba(11, 31, 58, 0.06), 0 1px 2px rgba(11, 31, 58, 0.04);
+  --shadow-md:   0 4px 6px -1px rgba(11, 31, 58, 0.08), 0 2px 4px -2px rgba(11, 31, 58, 0.05);
+  --shadow-lg:   0 10px 15px -3px rgba(11, 31, 58, 0.08), 0 4px 6px -4px rgba(11, 31, 58, 0.05);
+  --shadow-xl:   0 20px 25px -5px rgba(11, 31, 58, 0.1), 0 8px 10px -6px rgba(11, 31, 58, 0.06);
+  --shadow-2xl:  0 25px 50px -12px rgba(11, 31, 58, 0.15);
+
+  --shadow-card:        0 1px 3px rgba(11, 31, 58, 0.06), 0 1px 2px rgba(11, 31, 58, 0.04);
+  --shadow-card-hover:  0 4px 12px rgba(11, 31, 58, 0.1);
+  --shadow-emerald-glow: 0 0 20px rgba(14, 159, 110, 0.25);
+  --shadow-focus:       0 0 0 3px rgba(14, 159, 110, 0.15);
+
+  /* ── Typography ────────────────────────────────────────────────────────── */
+  --font-heading:      'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-side-heading: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:         'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:         'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Type Scale */
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.125rem;   /* 18px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  1.875rem;   /* 30px */
+  --text-4xl:  2.25rem;    /* 36px */
+  --text-5xl:  3rem;       /* 48px */
+  --text-aqi:  3.5rem;     /* 56px - AQI Display */
+
+  /* Font Weights */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --weight-extrabold: 800;
+
+  /* Line Heights */
+  --leading-none:   1;
+  --leading-tight:  1.2;
+  --leading-snug:   1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.03em;
+  --tracking-tight:   -0.015em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.015em;
+  --tracking-wider:   0.03em;
+  --tracking-widest:  0.05em;
+
+  /* ── 8px Spacing System ────────────────────────────────────────────────── */
+  --space-0:   0;
+  --space-px:  1px;
+  --space-0-5: 0.125rem;  /* 2px */
+  --space-1:   0.25rem;   /* 4px */
+  --space-1-5: 0.375rem;  /* 6px */
+  --space-2:   0.5rem;    /* 8px */
+  --space-2-5: 0.625rem;  /* 10px */
+  --space-3:   0.75rem;   /* 12px */
+  --space-3-5: 0.875rem;  /* 14px */
+  --space-4:   1rem;      /* 16px */
+  --space-5:   1.25rem;   /* 20px */
+  --space-6:   1.5rem;     /* 24px */
+  --space-7:   1.75rem;   /* 28px */
+  --space-8:   2rem;      /* 32px */
+  --space-9:   2.25rem;   /* 36px */
+  --space-10:  2.5rem;    /* 40px */
+  --space-12:  3rem;      /* 48px */
+  --space-14:  3.5rem;    /* 56px */
+  --space-16:  4rem;      /* 64px */
+  --space-20:  5rem;      /* 80px */
+  --space-24:  6rem;      /* 96px */
+
+  /* ── Border Radii ──────────────────────────────────────────────────────── */
+  --radius-none: 0;
+  --radius-sm:   0.25rem;   /* 4px */
+  --radius-md:   0.375rem;  /* 6px */
+  --radius-lg:   0.5rem;    /* 8px */
+  --radius-xl:   0.75rem;   /* 12px */
+  --radius-2xl:  1rem;      /* 16px */
+  --radius-3xl:  1.5rem;    /* 24px */
+  --radius-full: 9999px;
+
+  /* ── Transitions ───────────────────────────────────────────────────────── */
+  --ease-out:     cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out:  cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring:  cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --duration-75:   75ms;
+  --duration-100:  100ms;
+  --duration-150:  150ms;
+  --duration-200:  200ms;
+  --duration-300:  300ms;
+  --duration-500:  500ms;
+
+  --transition-fast:   100ms var(--ease-out);
+  --transition-base:   150ms var(--ease-out);
+  --transition-slow:   300ms var(--ease-out);
+  --transition-theme:  200ms var(--ease-out);
+  --transition-spring: 400ms var(--ease-spring);
+
+  /* ── Z-Index Scale ─────────────────────────────────────────────────────── */
+  --z-base:      0;
+  --z-dropdown:  100;
+  --z-sticky:    200;
+  --z-overlay:   300;
+  --z-modal:     400;
+  --z-toast:     500;
+  --z-tooltip:   600;
+
+  /* ── Layout Constants ──────────────────────────────────────────────────── */
+  --sidebar-width:     260px;
+  --sidebar-collapsed: 72px;
+  --header-height:     64px;
+  --content-max-width: 1440px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DARK THEME — Charcoal Navy Background
+   High contrast, professional, not overly black
+   ═══════════════════════════════════════════════════════════════════════════ */
+[data-theme="dark"] {
+  /* ── Dark Backgrounds ──────────────────────────────────────────────────── */
+  --bg-primary:      #0F172A;
+  --bg-secondary:    #1E293B;
+  --bg-tertiary:     #334155;
+  --bg-elevated:     #1E293B;
+  --bg-card:         #1E293B;
+  --bg-card-hover:   #334155;
+  --bg-sidebar:      #0B1F3A;
+  --bg-header:       #0B1F3A;
+  --bg-input:        #1E293B;
+  --bg-input-focus:  #334155;
+  --bg-overlay:      rgba(11, 31, 58, 0.85);
+
+  /* ── Dark Borders ──────────────────────────────────────────────────────── */
+  --border-subtle:   #334155;
+  --border-default:  #475569;
+  --border-strong:   #64748B;
+  --border-focus:    #0E9F6E;
+  --border-navy:     rgba(255, 255, 255, 0.1);
+
+  /* ── Dark Text ─────────────────────────────────────────────────────────── */
+  --text-primary:    #F1F5F9;
+  --text-secondary:  #CBD5E1;
+  --text-tertiary:   #94A3B8;
+  --text-muted:      #64748B;
+  --text-inverse:    #0B1F3A;
+  --text-on-navy:    #FFFFFF;
+  --text-on-emerald: #FFFFFF;
+
+  /* ── Dark Shadows ──────────────────────────────────────────────────────── */
+  --shadow-xs:   0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md:   0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg:   0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+  --shadow-xl:   0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  --shadow-2xl:  0 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+  --shadow-card:        0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.03) inset;
+  --shadow-card-hover:  0 4px 12px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(14, 159, 110, 0.1);
+  --shadow-emerald-glow: 0 0 24px rgba(14, 159, 110, 0.35);
+  --shadow-focus:       0 0 0 3px rgba(14, 159, 110, 0.25);
+
+  /* ── AQI Colors remain the same for accessibility ──────────────────────── */
+}

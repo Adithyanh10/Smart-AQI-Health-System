@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-label="Skin organ icon">
+  <title>Skin</title>
+  <!-- Body silhouette representing skin -->
+  <ellipse cx="32" cy="16" rx="10" ry="12" fill="#f97316" opacity="0.9"/>
+  <!-- Torso -->
+  <path d="M18 30 C16 28 14 32 14 38 L14 54 C14 56 16 58 18 58 L46 58 C48 58 50 56 50 54 L50 38 C50 32 48 28 46 30 C42 34 36 36 32 36 C28 36 22 34 18 30 Z" fill="#f97316" opacity="0.9"/>
+  <!-- Skin texture lines -->
+  <path d="M22 42 C26 40 38 40 42 42" stroke="#fed7aa" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M22 48 C26 46 38 46 42 48" stroke="#fed7aa" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Neck -->
+  <rect x="27" y="26" width="10" height="8" rx="3" fill="#f97316"/>
+</svg>

@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: smart-aqi-backend
+    runtime: docker
+    # Build context is the parent folder so dataset/ is accessible
+    dockerContext: ..
+    dockerfilePath: ./backend/Dockerfile
+    plan: free
+    envVars:
+      - key: CORS_ORIGINS
+        value: https://smart-aqi.vercel.app,https://smart-aqi-git-main.vercel.app
+      - key: DATASET_PATH
+        value: /app/dataset/air_quality.csv
+      - key: MODELS_DIR
+        value: /app/models
+      - key: LOGS_DIR
+        value: /app/logs
+      - key: CACHE_TTL_SECONDS
+        value: "300"
+      - key: RATE_LIMIT_MAX
+        value: "100"
+      - key: RATE_LIMIT_WINDOW
+        value: "60"
+    healthCheckPath: /api/v1/aqi/live

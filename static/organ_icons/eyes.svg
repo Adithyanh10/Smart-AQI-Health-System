@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-label="Eyes organ icon">
+  <title>Eyes</title>
+  <!-- Left eye -->
+  <path d="M6 32 C10 22 18 18 24 18 C30 18 34 22 34 32 C34 42 30 46 24 46 C18 46 10 42 6 32 Z" fill="white" stroke="#0d9488" stroke-width="2"/>
+  <circle cx="24" cy="32" r="7" fill="#0d9488"/>
+  <circle cx="24" cy="32" r="4" fill="#134e4a"/>
+  <circle cx="26" cy="29" r="1.5" fill="white"/>
+  <!-- Right eye -->
+  <path d="M30 32 C34 22 42 18 48 18 C54 18 58 22 58 32 C58 42 54 46 48 46 C42 46 34 42 30 32 Z" fill="white" stroke="#0d9488" stroke-width="2"/>
+  <circle cx="48" cy="32" r="7" fill="#0d9488"/>
+  <circle cx="48" cy="32" r="4" fill="#134e4a"/>
+  <circle cx="50" cy="29" r="1.5" fill="white"/>
+</svg>

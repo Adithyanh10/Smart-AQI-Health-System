@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+    "compare": "ਤੁਲਨਾ",
+    "dataset": "ਡੇਟਾਸੈੱਟ",
+    "map": "ਨਕਸ਼ਾ",
+    "profile": "ਪ੍ਰੋਫਾਈਲ",
+    "travel": "ਯਾਤਰਾ ਸਲਾਹਕਾਰ",
+    "voice": "ਵੌਇਸ ਕਮਾਂਡ",
+    "login": "ਲੌਗਇਨ",
+    "logout": "ਲੌਗਆਉਟ"
+  },
+  "buttons": {
+    "predict": "ਅਨੁਮਾਨ ਲਗਾਓ",
+    "uploadCSV": "CSV ਅਪਲੋਡ",
+    "downloadReport": "ਰਿਪੋਰਟ ਡਾਊਨਲੋਡ",
+    "clear": "ਸਾਫ਼ ਕਰੋ",
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+    "retry": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "dismiss": "ਬੰਦ ਕਰੋ",
+    "learnMore": "ਹੋਰ ਜਾਣੋ",
+    "shareAdvisory": "ਸਲਾਹ ਸਾਂਝੀ ਕਰੋ",
+    "iUnderstand": "ਮੈਂ ਖ਼ਤਰਾ ਸਮਝਦਾ ਹਾਂ",
+    "activate": "ਸਰਗਰਮ ਕਰੋ",
+    "retrain": "ਮਾਡਲ ਮੁੜ ਸਿਖਲਾਈ",
+    "tune": "ਹਾਈਪਰਪੈਰਾਮੀਟਰ ਟਿਊਨ",
+    "flushCache": "ਕੈਸ਼ ਸਾਫ਼",
+    "exportPDF": "PDF ਨਿਰਯਾਤ",
+    "addFavorite": "ਮਨਪਸੰਦ ਜੋੜੋ",
+    "saveProfile": "ਪ੍ਰੋਫਾਈਲ ਸੁਰੱਖਿਅਤ ਕਰੋ"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI ਸ਼੍ਰੇਣੀ",
+    "modelType": "ਮਾਡਲ ਕਿਸਮ",
+    "name": "ਨਾਮ",
+    "city": "ਸ਼ਹਿਰ",
+    "healthConditions": "ਸਿਹਤ ਸਥਿਤੀਆਂ",
+    "notificationThreshold": "ਸੂਚਨਾ ਸੀਮਾ (AQI)",
+    "apiKey": "API ਕੁੰਜੀ"
+  },
+  "aqi": {
+    "title": "ਹਵਾ ਗੁਣਵੱਤਾ ਸੂਚਕਾਂਕ",
+    "value": "AQI ਮੁੱਲ",
+    "category": "ਸ਼੍ਰੇਣੀ",
+    "categories": {
+      "good": "ਚੰਗਾ",
+      "moderate": "ਦਰਮਿਆਨਾ",
+      "unhealthySensitive": "ਸੰਵੇਦਨਸ਼ੀਲ ਸਮੂਹਾਂ ਲਈ ਅਸਿਹਤਮੰਦ",
+      "unhealthy": "ਅਸਿਹਤਮੰਦ",
+      "veryUnhealthy": "ਬਹੁਤ ਅਸਿਹਤਮੰਦ",
+      "hazardous": "ਖ਼ਤਰਨਾਕ"
+    }
+  },
+  "dashboard": {
+    "title": "AQI ਸਿਹਤ ਡੈਸ਼ਬੋਰਡ",
+    "subtitle": "ਰੀਅਲ-ਟਾਈਮ ਹਵਾ ਗੁਣਵੱਤਾ ਸਿਹਤ ਪ੍ਰਭਾਵ ਵਿਸ਼ਲੇਸ਼ਣ"
+  },
+  "voice": {
+    "title": "ਵੌਇਸ ਕਮਾਂਡ",
+    "subtitle": "ਪ੍ਰਦੂਸ਼ਣ ਵੇਰਵੇ ਆਵਾਜ਼ ਨਾਲ ਪੁੱਛੋ",
+    "placeholder": "ਮਾਈਕ ਦਬਾਓ ਅਤੇ ਬੋਲੋ...",
+    "listening": "ਸੁਣ ਰਿਹਾ ਹੈ...",
+    "processing": "ਪ੍ਰਕਿਰਿਆ ਕਰ ਰਿਹਾ ਹੈ...",
+    "askAnything": "ਹਵਾ ਗੁਣਵੱਤਾ ਬਾਰੇ ਕੁਝ ਵੀ ਪੁੱਛੋ",
+    "exampleQueries": "ਉਦਾਹਰਨ ਸਵਾਲ",
+    "noSupport": "ਤੁਹਾਡਾ ਬ੍ਰਾਊਜ਼ਰ ਵੌਇਸ ਪਛਾਣ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ"
+  }
+}

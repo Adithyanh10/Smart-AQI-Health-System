@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "डॅशबोर्ड",
+    "compare": "तुलना",
+    "dataset": "डेटासेट",
+    "map": "नकाशा",
+    "profile": "प्रोफाइल",
+    "travel": "प्रवास सल्लागार",
+    "voice": "व्हॉइस कमांड",
+    "login": "लॉगिन",
+    "logout": "लॉगआउट"
+  },
+  "buttons": {
+    "predict": "अंदाज करा",
+    "uploadCSV": "CSV अपलोड",
+    "downloadReport": "अहवाल डाउनलोड",
+    "clear": "साफ करा",
+    "submit": "सबमिट करा",
+    "retry": "पुन्हा प्रयत्न करा",
+    "dismiss": "बंद करा",
+    "learnMore": "अधिक जाणून घ्या",
+    "shareAdvisory": "सल्ला शेअर करा",
+    "iUnderstand": "मला धोका समजतो",
+    "activate": "सक्रिय करा",
+    "retrain": "मॉडेल पुन्हा प्रशिक्षण",
+    "tune": "हायपरपॅरामीटर ट्यून",
+    "flushCache": "कॅश साफ",
+    "exportPDF": "PDF निर्यात",
+    "addFavorite": "आवडते जोडा",
+    "saveProfile": "प्रोफाइल जतन करा"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI श्रेणी",
+    "modelType": "मॉडेल प्रकार",
+    "name": "नाव",
+    "city": "शहर",
+    "healthConditions": "आरोग्य स्थिती",
+    "notificationThreshold": "सूचना मर्यादा (AQI)",
+    "apiKey": "API की"
+  },
+  "aqi": {
+    "title": "हवा गुणवत्ता निर्देशांक",
+    "value": "AQI मूल्य",
+    "category": "श्रेणी",
+    "categories": {
+      "good": "चांगले",
+      "moderate": "मध्यम",
+      "unhealthySensitive": "संवेदनशील गटांसाठी अस्वास्थ्यकर",
+      "unhealthy": "अस्वास्थ्यकर",
+      "veryUnhealthy": "अत्यंत अस्वास्थ्यकर",
+      "hazardous": "धोकादायक"
+    }
+  },
+  "dashboard": {
+    "title": "AQI आरोग्य डॅशबोर्ड",
+    "subtitle": "रिअल-टाइम हवा गुणवत्ता आरोग्य प्रभाव विश्लेषण"
+  },
+  "voice": {
+    "title": "व्हॉइस कमांड",
+    "subtitle": "प्रदूषण तपशील आवाजाने विचारा",
+    "placeholder": "मायक दाबा आणि बोला...",
+    "listening": "ऐकत आहे...",
+    "processing": "प्रक्रिया करत आहे...",
+    "askAnything": "हवा गुणवत्तेबद्दल काहीही विचारा",
+    "exampleQueries": "उदाहरण प्रश्न",
+    "noSupport": "तुमचा ब्राउझर व्हॉइस ओळख समर्थन करत नाही"
+  }
+}

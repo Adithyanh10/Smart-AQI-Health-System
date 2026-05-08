@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-label="Lungs organ icon">
+  <title>Lungs</title>
+  <!-- Trachea -->
+  <rect x="30" y="4" width="4" height="12" rx="2" fill="#3b82f6"/>
+  <!-- Left lobe -->
+  <path d="M30 14 C30 14 14 16 10 26 C6 36 8 50 14 54 C18 57 24 56 26 52 C28 48 28 40 28 34 L28 14 Z" fill="#3b82f6" opacity="0.85"/>
+  <!-- Right lobe -->
+  <path d="M34 14 C34 14 50 16 54 26 C58 36 56 50 50 54 C46 57 40 56 38 52 C36 48 36 40 36 34 L36 14 Z" fill="#3b82f6" opacity="0.85"/>
+  <!-- Left lobe highlight -->
+  <path d="M26 22 C22 24 18 30 17 38" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Right lobe highlight -->
+  <path d="M38 22 C42 24 46 30 47 38" stroke="#93c5fd" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

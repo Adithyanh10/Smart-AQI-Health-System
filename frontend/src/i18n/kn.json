@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "compare": "ಹೋಲಿಸಿ",
+    "dataset": "ಡೇಟಾಸೆಟ್",
+    "map": "ನಕ್ಷೆ",
+    "profile": "ಪ್ರೊಫೈಲ್",
+    "travel": "ಪ್ರಯಾಣ ಸಲಹೆಗಾರ",
+    "voice": "ಧ್ವನಿ ಆಜ್ಞೆ",
+    "login": "ಲಾಗಿನ್",
+    "logout": "ಲಾಗ್‌ಔಟ್"
+  },
+  "buttons": {
+    "predict": "ಊಹಿಸಿ",
+    "uploadCSV": "CSV ಅಪ್‌ಲೋಡ್",
+    "downloadReport": "ವರದಿ ಡೌನ್‌ಲೋಡ್",
+    "clear": "ತೆರವುಗೊಳಿಸಿ",
+    "submit": "ಸಲ್ಲಿಸಿ",
+    "retry": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+    "dismiss": "ಮುಚ್ಚಿ",
+    "learnMore": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",
+    "shareAdvisory": "ಸಲಹೆ ಹಂಚಿಕೊಳ್ಳಿ",
+    "iUnderstand": "ನಾನು ಅಪಾಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೇನೆ",
+    "activate": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "retrain": "ಮಾದರಿ ಮರು-ತರಬೇತಿ",
+    "tune": "ಹೈಪರ್‌ಪ್ಯಾರಾಮೀಟರ್ ಟ್ಯೂನ್",
+    "flushCache": "ಕ್ಯಾಶ್ ತೆರವು",
+    "exportPDF": "PDF ರಫ್ತು",
+    "addFavorite": "ನೆಚ್ಚಿನದು ಸೇರಿಸಿ",
+    "saveProfile": "ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ"
+  },
+  "form": {
+    "pm25": "PM2.5 (µg/m³)",
+    "pm10": "PM10 (µg/m³)",
+    "no2": "NO2 (µg/m³)",
+    "so2": "SO2 (µg/m³)",
+    "co": "CO (µg/m³)",
+    "o3": "O3 (µg/m³)",
+    "aqiCategory": "AQI ವರ್ಗ",
+    "modelType": "ಮಾದರಿ ಪ್ರಕಾರ",
+    "name": "ಹೆಸರು",
+    "city": "ನಗರ",
+    "healthConditions": "ಆರೋಗ್ಯ ಪರಿಸ್ಥಿತಿಗಳು",
+    "notificationThreshold": "ಅಧಿಸೂಚನೆ ಮಿತಿ (AQI)",
+    "apiKey": "API ಕೀ"
+  },
+  "aqi": {
+    "title": "ವಾಯು ಗುಣಮಟ್ಟ ಸೂಚ್ಯಂಕ",
+    "value": "AQI ಮೌಲ್ಯ",
+    "category": "ವರ್ಗ",
+    "categories": {
+      "good": "ಉತ್ತಮ",
+      "moderate": "ಮಧ್ಯಮ",
+      "unhealthySensitive": "ಸೂಕ್ಷ್ಮ ಗುಂಪುಗಳಿಗೆ ಅನಾರೋಗ್ಯಕರ",
+      "unhealthy": "ಅನಾರೋಗ್ಯಕರ",
+      "veryUnhealthy": "ತುಂಬಾ ಅನಾರೋಗ್ಯಕರ",
+      "hazardous": "ಅಪಾಯಕಾರಿ"
+    }
+  },
+  "dashboard": {
+    "title": "AQI ಆರೋಗ್ಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "subtitle": "ನೈಜ-ಸಮಯ ವಾಯು ಗುಣಮಟ್ಟ ಆರೋಗ್ಯ ಪ್ರಭಾವ ವಿಶ್ಲೇಷಣೆ"
+  },
+  "voice": {
+    "title": "ಧ್ವನಿ ಆಜ್ಞೆ",
+    "subtitle": "ಮಾಲಿನ್ಯ ವಿವರಗಳನ್ನು ಧ್ವನಿಯಲ್ಲಿ ಕೇಳಿ",
+    "placeholder": "ಮೈಕ್ ಒತ್ತಿ ಮಾತನಾಡಿ...",
+    "listening": "ಕೇಳುತ್ತಿದೆ...",
+    "processing": "ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತಿದೆ...",
+    "askAnything": "ವಾಯು ಗುಣಮಟ್ಟದ ಬಗ್ಗೆ ಏನಾದರೂ ಕೇಳಿ",
+    "exampleQueries": "ಉದಾಹರಣೆ ಪ್ರಶ್ನೆಗಳು",
+    "noSupport": "ನಿಮ್ಮ ಬ್ರೌಸರ್ ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
+  }
+}
